@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="556eaae8-824d-4ebf-82f5-7d377a3fffad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="ProjectId" id="1cRVGNob14KcNmiJdRD24hcfMXq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build 切片.go">
+    <configuration name="go build 定义字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言基本语法/定义字符串.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言基本语法/指针.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/数组.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 切片.go" />
+        <item itemvalue="Go Build.go build 数组.go" />
+        <item itemvalue="Go Build.go build 指针.go" />
+        <item itemvalue="Go Build.go build 定义字符串.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="643" y="308" width="313" height="280" key="Github.ShareDialog" timestamp="1590504358244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="308" width="313" height="280" key="Github.ShareDialog/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504358244" />
+    <state width="1020" height="226" key="GridCell.Tab.0.bottom" timestamp="1590504189643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1020" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504189643" />
+    <state width="1020" height="226" key="GridCell.Tab.0.center" timestamp="1590504189643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1020" height="226" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504189643" />
+    <state width="1020" height="226" key="GridCell.Tab.0.left" timestamp="1590504189643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1020" height="226" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504189643" />
+    <state width="1020" height="226" key="GridCell.Tab.0.right" timestamp="1590504189643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1020" height="226" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504189643" />
+    <state x="321" y="87" width="992" height="707" key="SettingsEditor" timestamp="1590504511651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="321" y="87" width="992" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504511651" />
+    <state x="718" y="145" key="search.everywhere.popup" timestamp="1590498337112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="718" y="145" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590498337112" />
+  </component>
+</project>
