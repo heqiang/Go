@@ -22,6 +22,7 @@ func main() {
 	fmt.Println(element.Value)
 	l.InsertAfter("After", element)
 	l.InsertBefore("Before", element)
+	//list遍历
 	for i := l.Front(); i != nil; i = i.Next() {
 		fmt.Println(i.Value)
 	}
