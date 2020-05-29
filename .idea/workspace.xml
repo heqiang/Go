@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556eaae8-824d-4ebf-82f5-7d377a3fffad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Go语言容器/Map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言容器/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言容器/切片删除.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go语言容器/切片复制.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/切片.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言容器/切片.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/切片删除.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言容器/切片删除.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="E:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,7 +58,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RunManager" selected="Go Build.go build list.go">
     <configuration name="go build Map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -76,6 +74,22 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Go语言基本语法/定义字符串.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片删除.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片删除.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build 切片复制.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -135,8 +149,6 @@
       <list>
         <item itemvalue="Go Build.go build list.go" />
         <item itemvalue="Go Build.go build Map.go" />
-        <item itemvalue="Go Build.go build 切片删除.go" />
-        <item itemvalue="Go Build.go build 切片复制.go" />
         <item itemvalue="Go Build.go build 定义字符串.go" />
       </list>
     </recent_temporary>
@@ -149,24 +161,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="71" key="#GOPATH" timestamp="1590540847991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="71" key="#GOPATH/0.0.1536.824@0.0.1536.824" timestamp="1590540847991" />
-    <state x="491" y="94" key="#GOROOT" timestamp="1590574981378">
+    <state x="561" y="343" key="#GOROOT" timestamp="1590627140395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="94" key="#GOROOT/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590574981378" />
-    <state x="561" y="343" key="#GOROOT/0.0.1536.824@0.0.1536.824" timestamp="1590540843693" />
+    <state x="561" y="343" key="#GOROOT/0.0.1536.824@0.0.1536.824" timestamp="1590627140395" />
     <state x="669" y="222" key="FileChooserDialogImpl" timestamp="1590541108123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,31 +186,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="308" width="313" height="280" key="Github.ShareDialog/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504358244" />
-    <state width="822" height="260" key="GridCell.Tab.0.bottom" timestamp="1590584352989">
+    <state width="1293" height="184" key="GridCell.Tab.0.bottom" timestamp="1590629466605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1011" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590543978382" />
-    <state width="822" height="260" key="GridCell.Tab.0.center" timestamp="1590584352989">
+    <state width="1293" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590629466605" />
+    <state width="1293" height="184" key="GridCell.Tab.0.center" timestamp="1590629466605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1011" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590543978382" />
-    <state width="822" height="260" key="GridCell.Tab.0.left" timestamp="1590584352989">
+    <state width="1293" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590629466605" />
+    <state width="1293" height="184" key="GridCell.Tab.0.left" timestamp="1590629466605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1011" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590543978382" />
-    <state width="822" height="260" key="GridCell.Tab.0.right" timestamp="1590584352989">
+    <state width="1293" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590629466605" />
+    <state width="1293" height="184" key="GridCell.Tab.0.right" timestamp="1590629466605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1011" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590543978382" />
-    <state x="473" y="114" width="992" height="707" key="SettingsEditor" timestamp="1590541564969">
+    <state width="1293" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590629466605" />
+    <state x="473" y="114" width="992" height="707" key="SettingsEditor" timestamp="1590627157329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="87" width="992" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504511651" />
-    <state x="473" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590541564969" />
+    <state x="473" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590627157329" />
     <state x="718" y="145" key="search.everywhere.popup" timestamp="1590498337112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -10,7 +10,7 @@ func main() {
 	slice = append(slice[:0], slice[N:]...)
 
 	//使用copy删除开头的N个元素
-	slice = slice[:3]
+	slice = slice[N:]
 
 	fmt.Print(slice)
 }
