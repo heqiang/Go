@@ -2,16 +2,15 @@ package main
 
 import "fmt"
 
-func swap(a ,b *int){
-		temp := *a
-		*a = *b
-		*b = temp
+func swap(a, b *int) {
+	temp := *a
+	*a = *b
+	*b = temp
 }
 
-
-func  main()  {
-	a,b := 2,3
-	swap(&a,&b)
+func main() {
+	a, b := 2, 3
+	swap(&a, &b)
 	fmt.Println(a)
 	fmt.Print(b)
 

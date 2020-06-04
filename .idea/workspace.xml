@@ -19,11 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="556eaae8-824d-4ebf-82f5-7d377a3fffad" name="Default Changelist" comment="切片操作">
-      <change afterPath="$PROJECT_DIR$/Go语言函数/定义.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/流程控制语句/for循环.go" afterDir="false" />
+    <list default="true" id="556eaae8-824d-4ebf-82f5-7d377a3fffad" name="Default Changelist" comment="函数">
+      <change afterPath="$PROJECT_DIR$/4、Go语言函数/函数类型实现接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4、Go语言函数/匿名函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4、Go语言函数/递归函数(fib).go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4、Go语言函数/闭包.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4、Go语言函数/阶乘.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go语言容器/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go语言容器/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言函数/定义.go" beforeDir="false" afterPath="$PROJECT_DIR$/4、Go语言函数/定义.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言基本语法/定义字符串.go" beforeDir="false" afterPath="$PROJECT_DIR$/1、Go语言基本语法/定义字符串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言基本语法/指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/1、Go语言基本语法/指针.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go语言容器/Map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go语言容器/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/切片.go" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go语言容器/切片.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/切片删除.go" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go语言容器/切片删除.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/切片复制.go" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go语言容器/切片复制.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go语言容器/数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go语言容器/数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/流程控制语句/for循环.go" beforeDir="false" afterPath="$PROJECT_DIR$/3、流程控制语句/for循环.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +74,64 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Build.go build for循环.go">
-    <configuration name="go build Map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GoFile\Go\4、Go语言函数" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build 阶乘.go">
+    <configuration name="go build 匿名函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/Map.go" />
+      <filePath value="$PROJECT_DIR$/Go语言函数/匿名函数.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 定义字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 闭包.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言基本语法/定义字符串.go" />
+      <filePath value="$PROJECT_DIR$/4、Go语言函数/闭包.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 递归函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/4、Go语言函数/递归函数.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 阶乘.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/4、Go语言函数/阶乘.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/数组.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 定义.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言函数/定义.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -125,42 +181,21 @@
       <filePath value="$PROJECT_DIR$/Go语言基本语法/指针.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/数组.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/切片.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build for循环.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/流程控制语句/for循环.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build list.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/list.go" />
+      <filePath value="$PROJECT_DIR$/Go语言函数/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build for循环.go" />
-        <item itemvalue="Go Build.go build list.go" />
-        <item itemvalue="Go Build.go build Map.go" />
-        <item itemvalue="Go Build.go build 定义字符串.go" />
+        <item itemvalue="Go Build.go build 阶乘.go" />
+        <item itemvalue="Go Build.go build 递归函数.go" />
+        <item itemvalue="Go Build.go build 闭包.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build 匿名函数.go" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +216,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="切片操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="切片操作" />
+    <MESSAGE value="函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="71" key="#GOPATH" timestamp="1590540847991">
@@ -201,51 +237,55 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="308" width="313" height="280" key="Github.ShareDialog/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504358244" />
-    <state width="1013" height="356" key="GridCell.Tab.0.bottom" timestamp="1590743098829">
+    <state width="981" height="204" key="GridCell.Tab.0.bottom" timestamp="1591243819218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1013" height="356" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590743098829" />
-    <state width="1013" height="356" key="GridCell.Tab.0.center" timestamp="1590743098829">
+    <state width="981" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591243819218" />
+    <state width="981" height="204" key="GridCell.Tab.0.center" timestamp="1591243819218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1013" height="356" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590743098829" />
-    <state width="1013" height="356" key="GridCell.Tab.0.left" timestamp="1590743098829">
+    <state width="981" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591243819218" />
+    <state width="981" height="204" key="GridCell.Tab.0.left" timestamp="1591243819218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1013" height="356" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590743098829" />
-    <state width="1013" height="356" key="GridCell.Tab.0.right" timestamp="1590743098829">
+    <state width="981" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591243819218" />
+    <state width="981" height="204" key="GridCell.Tab.0.right" timestamp="1591243819218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="1013" height="356" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590743098829" />
-    <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1590742813177">
+    <state width="981" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591243819218" />
+    <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1590744668539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590742813177" />
-    <state width="1493" height="213" key="GridCell.Tab.1.center" timestamp="1590742813177">
+    <state width="1493" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590744668539" />
+    <state width="1493" height="213" key="GridCell.Tab.1.center" timestamp="1590744668539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590742813177" />
-    <state width="1493" height="213" key="GridCell.Tab.1.left" timestamp="1590742813177">
+    <state width="1493" height="213" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590744668539" />
+    <state width="1493" height="213" key="GridCell.Tab.1.left" timestamp="1590744668539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590742813177" />
-    <state width="1493" height="213" key="GridCell.Tab.1.right" timestamp="1590742813177">
+    <state width="1493" height="213" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590744668539" />
+    <state width="1493" height="213" key="GridCell.Tab.1.right" timestamp="1590744668539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590742813177" />
+    <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590744668539" />
     <state x="473" y="114" width="992" height="707" key="SettingsEditor" timestamp="1590627157329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="87" width="992" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504511651" />
     <state x="473" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590627157329" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590722277077">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590744654541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590722277077" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590744654541" />
+    <state x="497" y="204" key="git4idea.merge.GitPullDialog" timestamp="1591148618538">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="497" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1591148618538" />
     <state x="718" y="145" key="search.everywhere.popup" timestamp="1590498337112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
