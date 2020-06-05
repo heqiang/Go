@@ -15,7 +15,7 @@ type Battery struct {
 }
 
 func getJsonData() []byte {
-	raw := &struct {
+	raw := struct {
 		Screen
 		Battery
 		HasTochID bool
