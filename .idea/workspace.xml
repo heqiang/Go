@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="556eaae8-824d-4ebf-82f5-7d377a3fffad" name="Default Changelist" comment="结构体">
-      <change afterPath="$PROJECT_DIR$/接口/Go语言排序.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/接口/实现接口小练习.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/接口/接口方法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/接口/类型判断.go" afterDir="false" />
+    <list default="true" id="556eaae8-824d-4ebf-82f5-7d377a3fffad" name="Default Changelist" comment="接口">
+      <change afterPath="$PROJECT_DIR$/Gin/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gin/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go爬虫/Spider_go.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5、结构体/使用匿名结构体解析Json数据.go" beforeDir="false" afterPath="$PROJECT_DIR$/5、结构体/使用匿名结构体解析Json数据.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +44,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cRVGNob14KcNmiJdRD24hcfMXq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -58,18 +61,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
-    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GoFile\Go\4、Go语言函数" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Go语言排序.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build Go语言排序.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -86,59 +90,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Spider_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go爬虫/Spider_go.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 接口方法.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/接口/接口方法.go" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 实现接口小练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/接口/实现接口小练习.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 类型判断.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/接口/类型判断.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 切片复制.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/切片复制.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 切片删除.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/切片删除.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言容器/切片.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Go语言基本语法/指针.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 初始化内嵌结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -203,13 +168,68 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 实现接口小练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/接口/实现接口小练习.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 类型判断.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/接口/类型判断.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片复制.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片复制.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片删除.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片删除.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言容器/切片.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Go语言基本语法/指针.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Gin/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Go语言排序.go" />
-        <item itemvalue="Go Build.go build 类型判断.go" />
-        <item itemvalue="Go Build.go build 实现接口小练习.go" />
-        <item itemvalue="Go Build.go build 接口方法.go" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build 使用匿名结构体解析Json数据.go" />
+        <item itemvalue="Go Build.go build Spider_go.go" />
+        <item itemvalue="Go Build.go build Go语言排序.go" />
+        <item itemvalue="Go Build.go build 接口方法.go" />
       </list>
     </recent_temporary>
   </component>
@@ -229,10 +249,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="切片操作" />
     <MESSAGE value="函数" />
     <MESSAGE value="函数 结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数 结束" />
+    <MESSAGE value="接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="71" key="#GOPATH" timestamp="1590540847991">
@@ -244,34 +266,46 @@
     </state>
     <state x="491" y="94" key="#GOROOT/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590574981378" />
     <state x="561" y="343" key="#GOROOT/0.0.1536.824@0.0.1536.824" timestamp="1590627140395" />
-    <state x="669" y="222" key="FileChooserDialogImpl" timestamp="1590541108123">
+    <state x="785" y="249" key="#Go_Modules" timestamp="1594277510722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="669" y="222" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590541108123" />
+    <state x="785" y="249" key="#Go_Modules/0.0.1536.824@0.0.1536.824" timestamp="1594277510722" />
+    <state x="304" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594281976663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="304" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594281976663" />
+    <state x="665" y="305" key="EnvironmentVariablesDialog" timestamp="1594281878037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="665" y="305" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594281878037" />
+    <state x="642" y="210" key="FileChooserDialogImpl" timestamp="1594343639722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="642" y="210" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594343639722" />
     <state x="643" y="308" width="313" height="280" key="Github.ShareDialog" timestamp="1590504358244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="308" width="313" height="280" key="Github.ShareDialog/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504358244" />
-    <state width="900" height="201" key="GridCell.Tab.0.bottom" timestamp="1591342848917">
+    <state width="1079" height="177" key="GridCell.Tab.0.bottom" timestamp="1594343937758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="900" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591342848917" />
-    <state width="900" height="201" key="GridCell.Tab.0.center" timestamp="1591342848917">
+    <state width="1079" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594343937758" />
+    <state width="1079" height="177" key="GridCell.Tab.0.center" timestamp="1594343937758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="900" height="201" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591342848917" />
-    <state width="900" height="201" key="GridCell.Tab.0.left" timestamp="1591342848917">
+    <state width="1079" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594343937758" />
+    <state width="1079" height="177" key="GridCell.Tab.0.left" timestamp="1594343937758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="900" height="201" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591342848917" />
-    <state width="900" height="201" key="GridCell.Tab.0.right" timestamp="1591342848917">
+    <state width="1079" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594343937758" />
+    <state width="1079" height="177" key="GridCell.Tab.0.right" timestamp="1594343937758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="822" height="260" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590584352989" />
-    <state width="900" height="201" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591342848917" />
+    <state width="1079" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594343937758" />
     <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1590744668539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -288,23 +322,27 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590744668539" />
-    <state x="473" y="114" width="992" height="707" key="SettingsEditor" timestamp="1590627157329">
+    <state x="69" y="114" width="1146" height="710" key="SettingsEditor" timestamp="1594343755700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="87" width="992" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590504511651" />
-    <state x="473" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590627157329" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591244192764">
+    <state x="69" y="114" width="1146" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594343755700" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591344106392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591244192764" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591344106392" />
+    <state x="744" y="13" width="600" height="804" key="find.popup" timestamp="1594275796200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="744" y="13" width="600" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594275796200" />
     <state x="497" y="204" key="git4idea.merge.GitPullDialog" timestamp="1591244189058">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="497" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1591244189058" />
-    <state x="718" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1591341651296">
+    <state x="718" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1594275471971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="718" y="145" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680/3200.0.1280.680/4480.0.1202.720@0.0.1536.824" timestamp="1590498337112" />
-    <state x="718" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591341651296" />
+    <state x="718" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594275471971" />
   </component>
 </project>
